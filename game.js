@@ -47,7 +47,6 @@ var initAnim,
 var content = document.getElementById('game-container');
 
 if(content){
-
     /* build first canvas elem */
     var firstLayer = document.createElement('canvas');
         firstLayer.setAttribute('id','mainLayer');
@@ -77,8 +76,6 @@ if(content){
     var contextThree = thirdLayer.getContext('2d'),
         tWidth =  thirdLayer.width,
         tHeight = thirdLayer.height;
-
-   
 }
 
 /* preloader[wich image] */
